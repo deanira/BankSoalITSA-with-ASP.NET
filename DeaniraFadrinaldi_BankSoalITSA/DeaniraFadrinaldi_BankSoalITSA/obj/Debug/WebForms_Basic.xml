@@ -1,0 +1,1410 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DeaniraFadrinaldi_BankSoalITSA
+</name>
+</assembly>
+<members>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:DeaniraFadrinaldi_BankSoalITSA.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.AddPhoneNumber._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.AddPhoneNumber._PhoneNumber">
+<summary>
+PhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Confirm._successPanel">
+<summary>
+successPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Confirm._login">
+<summary>
+login control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Confirm._errorPanel">
+<summary>
+errorPanel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ForgotPassword._loginForm">
+<summary>
+loginForm control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ForgotPassword._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ForgotPassword._FailureText">
+<summary>
+FailureText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ForgotPassword._Email">
+<summary>
+Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ForgotPassword._DisplayEmail">
+<summary>
+DisplayEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._FailureText">
+<summary>
+FailureText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._Email">
+<summary>
+Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._Password">
+<summary>
+Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._RememberMe">
+<summary>
+RememberMe control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._RegisterHyperLink">
+<summary>
+RegisterHyperLink control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login._OpenAuthLogin">
+<summary>
+OpenAuthLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Manage._SuccessMessagePlaceHolder">
+ <summary>
+ SuccessMessagePlaceHolder control.
+ </summary>
+ <remarks>
+ Auto-generated field.
+ To modify move field declaration from designer file to code-behind file.
+ </remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Manage._ChangePassword">
+ <summary>
+ ChangePassword control.
+ </summary>
+ <remarks>
+ Auto-generated field.
+ To modify move field declaration from designer file to code-behind file.
+ </remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Manage._CreatePassword">
+ <summary>
+ CreatePassword control.
+ </summary>
+ <remarks>
+ Auto-generated field.
+ To modify move field declaration from designer file to code-behind file.
+ </remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Manage._PhoneNumber">
+ <summary>
+ PhoneNumber control.
+ </summary>
+ <remarks>
+ Auto-generated field.
+ To modify move field declaration from designer file to code-behind file.
+ </remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManageLogins._SuccessMessagePlaceholder">
+<summary>
+SuccessMessagePlaceholder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._setPassword">
+<summary>
+setPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._confirmPassword">
+<summary>
+confirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._changePasswordHolder">
+<summary>
+changePasswordHolder control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._CurrentPasswordLabel">
+<summary>
+CurrentPasswordLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._CurrentPassword">
+<summary>
+CurrentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._NewPasswordLabel">
+<summary>
+NewPasswordLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._NewPassword">
+<summary>
+NewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._ConfirmNewPasswordLabel">
+<summary>
+ConfirmNewPasswordLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ManagePassword._ConfirmNewPassword">
+<summary>
+ConfirmNewPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.OpenAuthProviders._providerDetails">
+<summary>
+providerDetails control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Register._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Register._Email">
+<summary>
+Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Register._Password">
+<summary>
+Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Register._ConfirmPassword">
+<summary>
+ConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.RegisterExternalLogin._email">
+<summary>
+email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ResetPassword._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ResetPassword._Email">
+<summary>
+Email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ResetPassword._Password">
+<summary>
+Password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ResetPassword._ConfirmPassword">
+<summary>
+ConfirmPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ResetPasswordConfirmation._login">
+<summary>
+login control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._sendcode">
+<summary>
+sendcode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._Providers">
+<summary>
+Providers control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._ProviderSubmit">
+<summary>
+ProviderSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._verifycode">
+<summary>
+verifycode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._SelectedProvider">
+<summary>
+SelectedProvider control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._FailureText">
+<summary>
+FailureText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._Code">
+<summary>
+Code control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._RememberBrowser">
+<summary>
+RememberBrowser control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.TwoFactorAuthenticationSignIn._CodeSubmit">
+<summary>
+CodeSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.VerifyPhoneNumber._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.VerifyPhoneNumber._PhoneNumber">
+<summary>
+PhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.VerifyPhoneNumber._Code">
+<summary>
+Code control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._formTabel">
+<summary>
+formTabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._ObjectDataSourceAmpu">
+<summary>
+ObjectDataSourceAmpu control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._DropDownListMatkul">
+<summary>
+DropDownListMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._DropDownListDosen">
+<summary>
+DropDownListDosen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.ampu._btnTambah">
+<summary>
+btnTambah control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.dosen._formTabel">
+<summary>
+formTabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.dosen._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.dosen._dosenDataSource">
+<summary>
+dosenDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.dosen._namaDosen">
+<summary>
+namaDosen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.dosen._btnTambah">
+<summary>
+btnTambah control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword1._btnSimpan">
+<summary>
+btnSimpan control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword1._currentPassword">
+<summary>
+currentPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword1._newPassword">
+<summary>
+newPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword1._newPassword2">
+<summary>
+newPassword2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._matkulDataSource">
+<summary>
+matkulDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._namaMatkul_tambahMatkul">
+<summary>
+namaMatkul_tambahMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._tipe_tambahMatkul">
+<summary>
+tipe_tambahMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._semester_tambahMatkul">
+<summary>
+semester_tambahMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.matkul._btnTambah">
+<summary>
+btnTambah control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._GridView1">
+<summary>
+GridView1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._soalObjectDataSource">
+<summary>
+soalObjectDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._deskripsi_soal">
+<summary>
+deskripsi_soal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._semester_soal">
+<summary>
+semester_soal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._DropDownListMatkul">
+<summary>
+DropDownListMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._DropDownListDosen">
+<summary>
+DropDownListDosen control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._tbTahunAjaran">
+<summary>
+tbTahunAjaran control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._RegularExpressionValidator2">
+<summary>
+RegularExpressionValidator2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._fileSoal">
+<summary>
+fileSoal control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.soal._btnTambah">
+<summary>
+btnTambah control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester1">
+<summary>
+semester1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester2">
+<summary>
+semester2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester3">
+<summary>
+semester3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester4">
+<summary>
+semester4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester5">
+<summary>
+semester5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester6">
+<summary>
+semester6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester7">
+<summary>
+semester7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._semester8">
+<summary>
+semester8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._id_matkul2">
+<summary>
+id_matkul2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.cariSoal._btnNamaMatkul">
+<summary>
+btnNamaMatkul control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword._password">
+<summary>
+password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword._new_password">
+<summary>
+new_password control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword._new_password2">
+<summary>
+new_password2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.gantiPassword._btnSubmit">
+<summary>
+btnSubmit control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Login1._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihDosen._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihMatkul._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihMatkul._id_matkul2">
+<summary>
+id_matkul2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester1">
+<summary>
+semester1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester2">
+<summary>
+semester2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester3">
+<summary>
+semester3 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester4">
+<summary>
+semester4 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester5">
+<summary>
+semester5 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester6">
+<summary>
+semester6 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester7">
+<summary>
+semester7 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSemester._semester8">
+<summary>
+semester8 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSoal._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSoal._Repeater1">
+<summary>
+Repeater1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.pilihSoal._ltEmbed">
+<summary>
+ltEmbed control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.matkulDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.dosenDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.ampuDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.matkulRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.dosenRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.ampuRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.matkulRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.dosenRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.ampuRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.matkulTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.dosenTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.ampuTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.DataTable2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.UpdateUpdatedRows(DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.UpdateInsertedRows(DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.UpdateDeletedRows(DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.UpdateAll(DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliah)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DeaniraFadrinaldi_BankSoalITSA.DataSetMataKuliahTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._ErrorMessage">
+<summary>
+ErrorMessage control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._FailureText">
+<summary>
+FailureText control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._tbEmail">
+<summary>
+tbEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._tbPassword">
+<summary>
+tbPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._btnLogin">
+<summary>
+btnLogin control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._tbDaftarNama">
+<summary>
+tbDaftarNama control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._tbDaftarEmail">
+<summary>
+tbDaftarEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._RegularExpressionValidator1">
+<summary>
+RegularExpressionValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._tbDaftarPassword">
+<summary>
+tbDaftarPassword control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.index._btnDaftar">
+<summary>
+btnDaftar control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.SiteMaster._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._FeaturedContent">
+<summary>
+FeaturedContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:DeaniraFadrinaldi_BankSoalITSA.Site_Mobile._ViewSwitcher1">
+<summary>
+ViewSwitcher1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BankSoalITSAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="ampu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_matkul" Type="int" Nullable="false" />
+          <Property Name="id_dosen" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dosen">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nama_dosen" Type="nvarchar(max)" Nullable="false" />
+        </EntityType>
+        <EntityType Name="matkul">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="nama_matkul" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="tipe_matkul" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="semester" Type="nvarchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BankSoalITSAModelStoreContainer">
+          <EntitySet Name="ampu" EntityType="Self.ampu" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="dosen" EntityType="Self.dosen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="matkul" EntityType="Self.matkul" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BankSoalITSAModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="ampu">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_matkul" Type="Int32" Nullable="false" />
+          <Property Name="id_dosen" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="dosen">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nama_dosen" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityType Name="matkul">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="nama_matkul" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="tipe_matkul" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="semester" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BankSoalITSAEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="ampus" EntityType="Self.ampu" />
+          <EntitySet Name="dosens" EntityType="Self.dosen" />
+          <EntitySet Name="matkuls" EntityType="Self.matkul" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BankSoalITSAModelStoreContainer" CdmEntityContainer="BankSoalITSAEntities">
+          <EntitySetMapping Name="ampus">
+            <EntityTypeMapping TypeName="BankSoalITSAModel.ampu">
+              <MappingFragment StoreEntitySet="ampu">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="id_matkul" ColumnName="id_matkul" />
+                <ScalarProperty Name="id_dosen" ColumnName="id_dosen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="dosens">
+            <EntityTypeMapping TypeName="BankSoalITSAModel.dosen">
+              <MappingFragment StoreEntitySet="dosen">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nama_dosen" ColumnName="nama_dosen" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="matkuls">
+            <EntityTypeMapping TypeName="BankSoalITSAModel.matkul">
+              <MappingFragment StoreEntitySet="matkul">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="nama_matkul" ColumnName="nama_matkul" />
+                <ScalarProperty Name="tipe_matkul" ColumnName="tipe_matkul" />
+                <ScalarProperty Name="semester" ColumnName="semester" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

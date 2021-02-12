@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BankSoalITSAModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ampu">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_matkul" Type="int" Nullable="false" />
+    <Property Name="id_dosen" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="dosen">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_dosen" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="matkul">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nama_matkul" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="tipe_matkul" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="semester" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BankSoalITSAModelStoreContainer">
+    <EntitySet Name="ampu" EntityType="Self.ampu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="dosen" EntityType="Self.dosen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="matkul" EntityType="Self.matkul" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

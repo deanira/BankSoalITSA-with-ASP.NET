@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BankSoalITSAModelStoreContainer" CdmEntityContainer="BankSoalITSAEntities">
+    <EntitySetMapping Name="ampus">
+      <EntityTypeMapping TypeName="BankSoalITSAModel.ampu">
+        <MappingFragment StoreEntitySet="ampu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="id_matkul" ColumnName="id_matkul" />
+          <ScalarProperty Name="id_dosen" ColumnName="id_dosen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dosens">
+      <EntityTypeMapping TypeName="BankSoalITSAModel.dosen">
+        <MappingFragment StoreEntitySet="dosen">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nama_dosen" ColumnName="nama_dosen" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="matkuls">
+      <EntityTypeMapping TypeName="BankSoalITSAModel.matkul">
+        <MappingFragment StoreEntitySet="matkul">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="nama_matkul" ColumnName="nama_matkul" />
+          <ScalarProperty Name="tipe_matkul" ColumnName="tipe_matkul" />
+          <ScalarProperty Name="semester" ColumnName="semester" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
